@@ -36,6 +36,7 @@ FlowAgenda is a simple, intuitive web application that leverages natural languag
    Ensure you have Python and virtual environment tools installed. Then, set up the backend:
    ```bash
    cd backend
+   python -m venv venv
    source venv/bin/activate  # Use `venv\Scripts\activate` on Windows
    pip install -r requirements.txt
    python manage.py runserver
